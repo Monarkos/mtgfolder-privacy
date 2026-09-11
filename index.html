@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — MTG Folder</title>
+<meta name="description" content="MTG Folder privacy policy. No account, no server of ours; artwork generation uses your own xAI key.">
+<style>
+  :root {
+    --ground: #0B0818;
+    --surface: #16122A;
+    --rule: #2C2648;
+    --text: #E9E5F4;
+    --muted: #B1A9CF;
+    --gold: #E8C877;
+    --violet: #A594FF;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--ground);
+    color: var(--text);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  .wrap { max-width: 42rem; margin: 0 auto; padding: 3rem 1.25rem 5rem; }
+  header { border-bottom: 1px solid var(--rule); padding-bottom: 1.5rem; margin-bottom: 2.5rem; }
+  .mark {
+    font: 600 0.8rem/1 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    letter-spacing: 0.22em; text-transform: uppercase; color: var(--gold); margin: 0 0 0.75rem;
+  }
+  h1 { font-size: 1.75rem; line-height: 1.2; margin: 0 0 0.5rem; font-weight: 600; }
+  .updated { color: var(--muted); font-size: 0.9rem; margin: 0; }
+  h2 {
+    font-size: 1.35rem; margin: 3rem 0 0.5rem; font-weight: 600;
+    padding-top: 2rem; border-top: 1px solid var(--rule);
+  }
+  h2:first-of-type { border-top: 0; padding-top: 0; margin-top: 2rem; }
+  h3 { font-size: 1.05rem; margin: 2rem 0 0.4rem; font-weight: 600; color: var(--violet); }
+  p, li { color: var(--text); }
+  p { margin: 0 0 1rem; }
+  ul { margin: 0 0 1rem; padding-left: 1.25rem; }
+  li { margin-bottom: 0.35rem; }
+  strong { color: #fff; }
+  em { color: var(--muted); font-style: normal; }
+  code {
+    background: var(--surface); border: 1px solid var(--rule); border-radius: 4px;
+    padding: 0.1em 0.35em; font-size: 0.9em;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  }
+  a { color: var(--violet); }
+  .lede {
+    background: var(--surface); border: 1px solid var(--rule); border-radius: 12px;
+    padding: 1.1rem 1.25rem; margin: 0 0 1.5rem;
+  }
+  .lede p:last-child { margin-bottom: 0; }
+  .langs { margin: 0 0 2rem; font-size: 0.9rem; color: var(--muted); }
+  .langs a { margin-right: 0.75rem; }
+  footer {
+    margin-top: 4rem; padding-top: 1.5rem; border-top: 1px solid var(--rule);
+    color: var(--muted); font-size: 0.875rem;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <p class="mark">MTG Folder</p>
+  <h1>Privacy Policy</h1>
+  <p class="updated">Last updated: 11 September 2026 &middot; <span lang="pt-BR">Última atualização: 11 de setembro de 2026</span></p>
+</header>
+
+<p class="langs"><a href="#en">English</a> <a href="#pt">Português (Brasil)</a></p>
+
+<h2 id="en">English</h2>
+
+<div class="lede">
+  <h3 style="margin-top:0">The short version</h3>
+  <p>MTG Folder has no account, no sign-in, and no server belonging to us. Nothing about you
+  reaches us, because there is nowhere for it to go. The one thing that leaves your device
+  is artwork generation, which happens only when you ask for it and only on your own xAI
+  key.</p>
+</div>
+
+<h3>What we collect</h3>
+<p><strong>We receive nothing.</strong> There is no user account, no user identifier, no
+device identifier, and no analytics, crash-reporting or advertising service in the
+application. We operate no server, so no data from your device reaches us.</p>
+<p>One thing does leave your device, and the stores count it. If you use artwork generation,
+the prompt you write and any reference images you choose are sent to xAI under your own API
+key. Google Play's Data safety form defines “collected” as data transmitted off the device,
+whether or not the developer receives it — so that flow is declared there as <em>photos</em>
+and <em>other user-generated content</em>, collected, not shared, not linked to your
+identity, and entirely optional. It is described in full under <strong>What leaves your
+device</strong> below. Nothing else is transmitted anywhere.</p>
+
+<h3>What stays on your device</h3>
+<p>Everything the application creates:</p>
+<ul>
+  <li>your decks, cards, proxy projects and print sessions</li>
+  <li>the downloaded card catalogue</li>
+  <li>cached card images and any artwork you generate</li>
+  <li>a local record of what each artwork request cost you</li>
+  <li>diagnostic logs and window layout</li>
+</ul>
+<p>These are ordinary files in the application's own storage. Uninstalling MTG Folder
+deletes them. There is no copy anywhere else, because there is nowhere else.</p>
+
+<h3>What leaves your device</h3>
+<p>Two services, both contacted directly by the app, never through us.</p>
+<p><strong>Scryfall (<code>api.scryfall.com</code>)</strong> — the card catalogue. The app
+makes read requests carrying only what a card lookup needs: a card name you searched for, or
+the identifiers of cards in a list you imported. No identifier of you, your device or your
+decks is sent.</p>
+<p><strong>xAI (<code>api.x.ai</code>)</strong> — artwork generation, and <strong>only if you
+choose to use it</strong>. This feature does nothing until you enter your own xAI API key in
+Settings. When you ask for artwork, the app sends xAI the prompt text you wrote, the image
+settings you chose, and up to three reference images you selected, authenticated with your
+own key.</p>
+<p>Your key is stored in your device's secure store — the Android Keystore, the iOS Keychain,
+or DPAPI on Windows. It is never written to our files, never logged, and shown masked in
+Settings. Because the request is authenticated with your key, this is a relationship between
+you and xAI on your own account, governed by xAI's privacy policy. With no key configured,
+the app never contacts xAI at all.</p>
+
+<h3>Children</h3>
+<p>MTG Folder is not directed at children and collects nothing from anyone, of any age.</p>
+
+<h3>Your rights</h3>
+<p>There is no data of yours for us to show, correct, export or delete, because we hold none.
+Everything is on your device and under your control. Deleting the app removes all of it.</p>
+<p>The one exception is not ours to act on: anything you sent to xAI sits in your own xAI
+account, under your own key, and a request to see or delete it goes to xAI rather than to us.
+We cannot reach it, because we were never part of it.</p>
+
+<h3>Changes</h3>
+<p>If MTG Folder ever begins collecting anything, this policy will be updated before that
+version is published, and the store declarations will be updated with it.</p>
+
+<h3>Contact</h3>
+<p><a href="mailto:matheus.alocks@gmail.com">matheus.alocks@gmail.com</a></p>
+
+<h2 id="pt" lang="pt-BR">Português (Brasil)</h2>
+
+<div class="lede" lang="pt-BR">
+  <h3 style="margin-top:0">Em resumo</h3>
+  <p>O MTG Folder não tem conta, não tem login e não tem nenhum servidor nosso. Nada sobre
+  você chega até nós, porque não existe para onde mandar. A única coisa que sai do seu
+  aparelho é a geração de arte, que acontece só quando você pede e só com a sua própria chave
+  da xAI.</p>
+</div>
+
+<div lang="pt-BR">
+<h3>O que coletamos</h3>
+<p><strong>Nós não recebemos nada.</strong> Não há conta de usuário, identificador de
+usuário, identificador de aparelho, nem serviço de análise, relatório de falhas ou
+publicidade no aplicativo. Não operamos servidor nenhum, então nenhum dado do seu aparelho
+chega até nós.</p>
+<p>Uma coisa sai do seu aparelho, e as lojas contam isso. Se você usar a geração de arte, o
+prompt que você escreve e as imagens de referência que você escolher são enviados à xAI com a
+sua própria chave de API. O formulário de Segurança de dados do Google Play define
+“coletado” como dado transmitido para fora do aparelho, recebendo-o o desenvolvedor ou não —
+então esse fluxo é declarado lá como <em>fotos</em> e <em>outro conteúdo gerado pelo
+usuário</em>, coletado, não compartilhado, não vinculado à sua identidade e totalmente
+opcional. Está descrito por inteiro em <strong>O que sai do seu aparelho</strong>, abaixo.
+Nada mais é transmitido para lugar nenhum.</p>
+
+<h3>O que fica no seu aparelho</h3>
+<p>Tudo que o aplicativo cria:</p>
+<ul>
+  <li>seus decks, cartas, projetos de proxy e sessões de impressão</li>
+  <li>o catálogo de cartas baixado</li>
+  <li>imagens de cartas em cache e qualquer arte que você gerar</li>
+  <li>um registro local do custo de cada pedido de arte</li>
+  <li>logs de diagnóstico e a posição das janelas</li>
+</ul>
+<p>São arquivos comuns no armazenamento do próprio aplicativo. Desinstalar o MTG Folder apaga
+tudo. Não existe cópia em outro lugar, porque não existe outro lugar.</p>
+
+<h3>O que sai do seu aparelho</h3>
+<p>Dois serviços, contatados diretamente pelo aplicativo, nunca por meio de nós.</p>
+<p><strong>Scryfall (<code>api.scryfall.com</code>)</strong> — o catálogo de cartas. O
+aplicativo faz apenas consultas de leitura, levando só o que uma busca precisa: o nome de
+carta que você pesquisou, ou os identificadores das cartas de uma lista que você importou.
+Nenhum identificador seu, do seu aparelho ou dos seus decks é enviado.</p>
+<p><strong>xAI (<code>api.x.ai</code>)</strong> — geração de arte, e <strong>somente se você
+escolher usar</strong>. Esse recurso não faz nada até você digitar a sua própria chave de API
+da xAI em Configurações. Quando você pede uma arte, o aplicativo envia à xAI o texto do
+prompt que você escreveu, as configurações de imagem que você escolheu e até três imagens de
+referência que você selecionou, autenticados com a sua própria chave.</p>
+<p>Sua chave fica guardada no cofre seguro do aparelho — o Android Keystore, o Keychain do
+iOS, ou o DPAPI no Windows. Ela nunca é gravada nos nossos arquivos, nunca aparece em log, e
+é exibida mascarada em Configurações. Como a requisição é autenticada com a sua chave, a
+relação é entre você e a xAI, na sua própria conta, regida pela política de privacidade da
+xAI. Sem uma chave configurada, o aplicativo nunca entra em contato com a xAI.</p>
+
+<h3>Crianças</h3>
+<p>O MTG Folder não é direcionado a crianças e não coleta nada de ninguém, de nenhuma
+idade.</p>
+
+<h3>Seus direitos</h3>
+<p>Não há dado seu para mostrarmos, corrigirmos, exportarmos ou apagarmos, porque não temos
+nenhum. Está tudo no seu aparelho e sob seu controle. Apagar o aplicativo remove tudo.</p>
+<p>A única exceção não cabe a nós: o que você enviou à xAI fica na sua própria conta da xAI,
+com a sua própria chave, e um pedido para ver ou apagar isso vai para a xAI, não para nós.
+Não conseguimos alcançar esse dado, porque nunca fizemos parte dele.</p>
+
+<h3>Alterações</h3>
+<p>Se o MTG Folder algum dia passar a coletar qualquer coisa, esta política será atualizada
+antes de essa versão ser publicada, e as declarações nas lojas serão atualizadas junto.</p>
+
+<h3>Contato</h3>
+<p><a href="mailto:matheus.alocks@gmail.com">matheus.alocks@gmail.com</a></p>
+</div>
+
+<footer>
+  <p>MTG Folder &middot; com.mtgfolder.app</p>
+</footer>
+
+</div>
+</body>
+</html>
